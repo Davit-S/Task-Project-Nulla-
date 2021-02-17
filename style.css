@@ -1,0 +1,122 @@
+.cointenier{
+    text-align: -webkit-center;
+}
+
+.menu {
+    width: 90%;
+    height: 70px;
+    background-color: black;
+    padding-top: 1%;
+    padding-left: 1%;
+    text-align: left;
+}
+
+.productsClick, .basketsClick {
+    background-color: rgb(255, 0, 0, 0.3);
+    color: white;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 1%;
+}
+
+.addNewProducts{
+    text-align: right;
+    width: 90%;
+}
+
+.back, .forward{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 1%;
+    margin-top: 1%;
+    margin-right: 4px;
+    margin-bottom: 1%;
+}
+
+#main, #main-2{
+    width: 90% !important;
+    padding: 2%;
+
+}
+
+.products {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(26, 25, 25, 0.2);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    padding: 2%;
+  }
+  
+  .product {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+.basketsProduct {
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 25% 15% 15% 35% 1%;
+    background-color: rgb(241, 7, 7, 0.1);
+    padding: 5px;
+    align-items: center;
+  }
+
+
+.baskets {
+    border: solid black;
+    width: auto;
+    height: auto;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+
+h4{
+    margin: 0;
+}
+
+.addBaskets{
+    background-color: rgb(25, 0, 255);
+    color: white;
+    border: none;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+.totals{
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.count {
+    margin-right: 5%;
+    font-size: x-large;
+    font-family: serif;
+}
+
+.countTitle, .price, .priceTitle{
+    font-size: x-large;
+    font-family: serif;
+}
+
+.imgBaskets{
+    width: 60% !important; 
+    height: 90% !important;
+}
+
+.active{
+    background-color: red;
+}
